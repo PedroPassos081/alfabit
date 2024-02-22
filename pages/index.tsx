@@ -1,5 +1,7 @@
+import Botao from "@/componentes/Botao"
+
 const App = () => {
-  return <h1>Inicio do projeto</h1>
+  return <Botao>teste</Botao>
 }
 
 export default App
