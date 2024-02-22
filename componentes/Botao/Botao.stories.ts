@@ -2,8 +2,8 @@ import { Meta, StoryObj } from "@storybook/react";
 import Botao, { BotaoProps } from ".";
 
 const meta: Meta<BotaoProps>= {
-    title: 'Button',
-    tags: ['autodocs'],
+    title: 'Moleculas/Botao',
+   // tags: ['autodocs'],
     component: Botao,
     argTypes: {}
 }
