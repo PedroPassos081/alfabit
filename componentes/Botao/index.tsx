@@ -1,4 +1,4 @@
-type BotaoProps = {
+export type BotaoProps = {
     children: React.ReactNode;
 }& React.ButtonHTMLAttributes<HTMLButtonElement>
 
