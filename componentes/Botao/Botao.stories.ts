@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 import Botao, { BotaoProps } from ".";
 
-const meta: Meta<BotaoProps>= {
+const meta: Meta<BotaoProps> = {
     title: 'Moleculas/Botao',
-   // tags: ['autodocs'],
+    // tags: ['autodocs'],
     component: Botao,
     argTypes: {}
 }
@@ -13,5 +13,12 @@ export default meta
 export const Primary: StoryObj<BotaoProps> = {
     args: {
         children: 'Botao'
+    }
+}
+
+export const Violet: StoryObj<BotaoProps> = {
+    args: {
+        children: 'Botao',
+        className: 'theme-violet'
     }
 }

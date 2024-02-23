@@ -5,9 +5,10 @@ export type BotaoProps = {
 const Botao = ({ children, className}: BotaoProps) => {
     return <button 
     className={`
-        bg-[#2d5bff] rounded-[8px] px-[32px] py-[12px] text-white
+        bg-primary bg-opacity-50 rounded-[8px] px-[32px] py-[12px] text-white
         ${className}
-    `}>
+    `}
+    >
         {children}
      </button>
 }
