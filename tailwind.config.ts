@@ -1,6 +1,6 @@
-function toRgba(cssVariable) {
+function toRgba(cssVariable: string) {
   const color = `var(${cssVariable})`
-  return ({ opacityValue }) => `rgba(${color}, ${opacityValue})`
+  return ({ opacityValue: string }) => `rgba(${color}, ${opacityValue})`
 }
 
 /** @type {import('tailwindcss').Config} */
